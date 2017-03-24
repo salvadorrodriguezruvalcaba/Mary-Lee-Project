@@ -1,5 +1,13 @@
-/*main heading */
-main>div>h1{
+/*main heading*/
+h1{
   height: 20vh;
-  font-size: 4em;
+  font-size: 9vh;
+}
+/*all sections are placed on the left*/
+/*section{
+  width: 60%;
+}*/
+/*form and newsletter are placed on the right*/
+aside{
+  width: 30%;
 }
