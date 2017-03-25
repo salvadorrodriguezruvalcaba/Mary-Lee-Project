@@ -16,6 +16,7 @@ img{
 
 .two p:nth-child(odd){
   padding: 20px 5px;
+  background-color: lightgrey;
 }
 h3{
   padding: 20px 5px;
@@ -28,3 +29,15 @@ li{
   display: block;
   background-color: lightgrey;
 }
+/* form properties start here */
+.card{
+  color: #00f;
+}
+.card-block{
+  background-color: rgba(128, 128, 128, 0.68);
+}
+.card-header{
+  padding-left: 4px;
+  font-weight: bold;
+}
+/*form properties end here*/
