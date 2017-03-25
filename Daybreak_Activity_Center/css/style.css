@@ -20,15 +20,15 @@ img{
 /*give all h3 headings padding*/
 h3{
   padding: 20px 5px;
+  margin-bottom: 20px;
 }
 /*styling list elements*/
 li{
   padding: 6px 12px;
   margin: 10px;
   border-radius: 15px;
-  width: 70%;
-  display: block;
   background-color: lightgrey;
+  list-style-type: none;
 }
 /* form properties start here */
 .card{
