@@ -1,3 +1,8 @@
+body{
+  border: 1px solid black;
+  margin: 20px 50px;
+  box-shadow: -10px -1px 20px 10px; 
+}
 /*main heading*/
 main>h1{
   height: 20vh;
@@ -20,7 +25,7 @@ img{
 /*give all h3 headings padding*/
 h3{
   padding: 20px 5px;
-  margin-bottom: 20px;
+  margin: 20px 0px;
 }
 /*styling list elements*/
 li{
