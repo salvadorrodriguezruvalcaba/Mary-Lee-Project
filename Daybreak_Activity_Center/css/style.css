@@ -1,13 +1,30 @@
 /*main heading*/
-h1{
+main>h1{
   height: 20vh;
   font-size: 9vh;
+  margin-top: 10px;
 }
-/*all sections are placed on the left*/
-/*section{
-  width: 60%;
-}*/
-/*form and newsletter are placed on the right*/
-aside{
-  width: 30%;
+
+section>article{
+  padding: 30px;
+
+}
+
+img{
+  border-radius: 100%;
+}
+
+.two p:nth-child(odd){
+  padding: 20px 5px;
+}
+h3{
+  padding: 20px 5px;
+}
+li{
+  padding: 6px 12px;
+  margin: 10px;
+  border-radius: 15px;
+  width: 70%;
+  display: block;
+  background-color: lightgrey;
 }
