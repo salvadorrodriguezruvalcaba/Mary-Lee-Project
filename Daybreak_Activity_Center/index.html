@@ -11,6 +11,8 @@
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css" integrity="sha384-rwoIResjU2yc3z8GV/NPeZWAv56rSmLldC3R/AZzGRnGxQQKnKkoFVhFQhNUwEyJ" crossorigin="anonymous">
   <!-- CSS link -->
   <link rel="stylesheet" href="css/style.css">
+  <!-- font awesome link -->
+  <link rel="stylesheet" href="font-awesome/css/font-awesome.min.css">
 </head>
 
 <body>
@@ -252,13 +254,27 @@
           <li>Email: daybreak@maryleefoundation.org</li>
         </ol>
 
-        <p>Business hours are 8:00am to 5:00pm Monday through Friday.</p>
+        <p><strong>
+          Business hours are 8:00am to 5:00pm Monday through Friday.
+        </strong></p>
+
 
 
         <ul>
-          <li>Print</li> <!-- Add icon here -->
-          <li>PDF</li> <!-- Add icon here -->
+          <li>
+            <button onClick="window.print()">
+              <i class="fa fa-print" aria-hidden="true"></i>
+            </button>
+          </li>
+
+          <li>
+            <i class="fa fa-file-pdf-o" aria-hidden="true"></i>
+          </li>
         </ul>
+
+
+
+
 
       </article>
 
